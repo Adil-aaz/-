@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nerko+One&family=Playwrite+CU:wght@100..400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One";
+    font-size: 20px;
+}
+
+.top-bar {
+    background-color: #ffffff;
+    justify-content: center;
+    font-family: "Nerko One";
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.text {
+    color: #f00c89;
+    text-align: center;
+    align-items: center;
+}
+
+.logo2 {
+    left: 10px;
+}
+  
+  @keyframes color {
+    0% { color: red; }
+    50% { color: orange; }
+    100% { color: rgb(189, 94, 11); }
+  }
+.logo2{
+    padding: 10px;
+    width: 8%;
+}
+
+/* Меню навигации */
+.navbar {
+    background-color: #563c0b;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-family: 
+    gap: 10px;
+    
+    
+}   
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url('condition.jpg');
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 150px;
+    align-items: center;
+    padding: 200px;
+    font-family: ;
+}
+.logo {
+
+    width: 20%;
+    height: 50%
+    float: left
+
+
+}
+.banner h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.banner button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.banner button:hover {
+    background-color: #e6b800;
+}
+
+
+button {
+    margin-top: 30px;
+}
+  
+button:hover {
+    background-color: #ff0000;
+
+}
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.product {
+    width: 30%;
+    height: 50%;
+    justify-content: space-around;
+    display: ;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap-reverse;
+    object-fit: cover
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+    
+    
+}
+
+.product img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+    padding: 
+    display: inline-block;
+    object-fit: cover
+    
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #91561e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffd52f;
+}

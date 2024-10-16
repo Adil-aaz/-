@@ -1,0 +1,36 @@
+#about-us {
+    background-color: #f9f9f9; 
+    padding: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif; 
+    font-style: italic;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  #about-us h2 {
+    color: #8B4513; 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    text-align: center;
+    font-family: 'Georgia', serif; 
+  }
+  
+  #about-us p {
+    color: #333; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+  }
+  
+  #about-us p:last-child {
+    margin-bottom: 0; 
+  }
+  
+  #about-us p strong {
+    color: #8B0000; 
+  }
+  
+  
